@@ -1,10 +1,10 @@
 *{
     margin:0;
-    padding: 0;
+    
 
 }
 .item{
-    background-color: blue;
+    background-color: rgb(4, 4, 77);
     color: white;
     width: 100px;
     height: 100px;
@@ -14,13 +14,21 @@
 
 }
 .container{
-    height: 100vh;
-    width: 40vh;
+    height: 30vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   
 
 
+}
+#listas{
+    padding: 100px;
+}
+ol{
+    list-style: upper-roman;
+}
+ul{
+    list-style: url('./image/check.png');
 }
